@@ -1,19 +1,29 @@
 ### Install requirements
-> pip3 install -r requirements.txt # for Mac/Linux
-> pip install -r requirements.txt # for Windows
+#### for Mac/Linux
+> pip3 install -r requirements.txt
+#### for Windows
+> pip install -r requirements.txt
 
 ### Install Virtual Env
-> pip3 install virtualenv # for Mac/Linux
-> pip install virtualenv # for Windows
+#### for Mac/Linux
+> pip3 install virtualenv
+#### for Windows
+> pip install virtualenv
 
 ### Create Virtual Env
-> python3 -m venv venv # for Mac/Linux
-> virtualenv venv # for Windows
+#### for Mac/Linux
+> python3 -m venv venv
+#### for Windows
+> virtualenv venv
 
 ### Activate Virtual Env
-> source venv/bin/activate # for Mac/Linux
-> source venv/Scripts/activate # for Windows
+#### for Mac/Linux
+> source venv/bin/activate
+#### for Windows
+> source venv/Scripts/activate
 
 ### Run tests
-> python3 -m pytest -v tests/test_google_search.py # for Mac/Linux
-> pytest -v tests/test_google_search.py # for Windows
+#### for Mac/Linux
+> python3 -m pytest -v tests/test_google_search.py
+#### for Windows
+> pytest -v tests/test_google_search.py
