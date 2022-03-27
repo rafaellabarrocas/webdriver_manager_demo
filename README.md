@@ -16,3 +16,7 @@ or
 >
 ## Windows
 > source venv/Scripts/activate
+
+## Run tests
+> python3 -m pytest -v tests/test_google_search.py # Mac/Linux
+> pytest -v tests/test_google_search.py # Windows
