@@ -2,7 +2,9 @@ Automation project using POM, Python, Selenium and Webdriver Manager
 
 ### Install requirements
 - for Mac/Linux
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 #### for Windows
 ```pip install -r requirements.txt```
 
