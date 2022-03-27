@@ -1,0 +1,36 @@
+1648401422977	geckodriver	INFO	Listening on 127.0.0.1:57335
+1648401423486	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "57336" "-foreground" "-no-remote" "-profile" "/var/folders/yn/4_ndtw3157s5jd09h8z3x8fr0000gn/T/rust_mozprofileh3PJun"
+1648401423770	Marionette	INFO	Marionette enabled
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yn/4_ndtw3157s5jd09h8z3x8fr0000gn/T/rust_mozprofileh3PJun/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:57336/devtools/browser/4de49c59-1af8-444b-bd6c-a47c6b50fec8
+1648401424661	Marionette	INFO	Listening on port 57349
+1648401424740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1648401435953	Marionette	INFO	Stopped listening on port 57349
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+1648403328755	geckodriver	INFO	Listening on 127.0.0.1:63655
+1648403328986	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63656" "-foreground" "-no-remote" "-profile" "/var/folders/yn/4_ndtw3157s5jd09h8z3x8fr0000gn/T/rust_mozprofilescVJE8"
+1648403329257	Marionette	INFO	Marionette enabled
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yn/4_ndtw3157s5jd09h8z3x8fr0000gn/T/rust_mozprofilescVJE8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63656/devtools/browser/a27831b6-414a-47fa-80c3-edc7a10b6c4e
+1648403330173	Marionette	INFO	Listening on port 63663
+1648403330247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1648403341423	Marionette	INFO	Stopped listening on port 63663
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
