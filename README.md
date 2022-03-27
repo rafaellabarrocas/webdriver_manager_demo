@@ -12,7 +12,7 @@
 
 ### Create Virtual Env
 #### for Mac/Linux
-> python3 -m venv venv
+```python3 -m venv venv```
 #### for Windows
 > virtualenv venv
 
