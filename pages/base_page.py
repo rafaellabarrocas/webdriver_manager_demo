@@ -1,6 +1,3 @@
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-
 class BasePage(object):
     def __init__(self, driver, base_url='http://www.google.com/'):
         self.base_url = base_url

@@ -23,8 +23,8 @@ class BaseTest(unittest.TestCase):
         options.add_argument("--start-fullscreen")
         options.add_argument('--disable-gpu')
 
-        # self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-        self.driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        # self.driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
         self.driver.get("http://www.google.com")
         time.sleep(3)
 
