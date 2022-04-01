@@ -30,8 +30,8 @@ Steps:
 Result:
  - User is registered and is also redirected to the main page.
 ```
-I always make I'm covering the AC of the feature/ticket
-Run on different browsers and screen sizes.
+- I always make I'm covering the AC of the feature/ticket
+- Run on different browsers and screen sizes.
 
 ### Bugs:
 `Error message when user tries to log in`
