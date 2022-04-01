@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 class HomePageLocators(object):
     LOGIN_LINK = (By.CSS_SELECTOR, "a[href*='signin?'")
     REGISTER_LINK = (By.CSS_SELECTOR, "a[href*='register?'")
+    SIGNED_IN_NAV_INFO = (By.ID, 'glow-ingress-line1')
 
 class LoginPageLocators(object):
     EMAIL_INPUT = (By.ID, 'ap_email')

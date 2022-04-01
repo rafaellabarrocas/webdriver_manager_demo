@@ -13,3 +13,11 @@ class HomePage(BasePage):
 
     def navigate_to_register_page(self):
         self.find_element(*self.locator.REGISTER_LINK).click()
+
+    def validate_user_is_signed_in(self, isDisplayed=True):
+        if(isDisplayed == True):
+            assert self.find_element(*self.locator.SIGNED_IN_NAV_INFO).isDisplayed()
+            print("User is signed in.")
+        else:
+            self.assertFalse(self.find_element(*self.locator.SIGNED_IN_NAV_INFO).isDisplayed())
+            print("User is signed in.")
