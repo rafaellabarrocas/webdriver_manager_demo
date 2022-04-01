@@ -1,4 +1,77 @@
 Amazon functional E2E automation project using POM, Python, Selenium and Webdriver Manager
+
+### Test Cases:
+`User can log in`
+```
+Requirement:
+ - User must have an valid account
+
+Steps:
+ - Launch the website (https://amazon.com)
+ - Click on 'Sign In' button
+ - Enter valid email and password
+ - Click on Sign In
+
+Result:
+ - User logs in and is redirected to the main page.
+```
+
+`User can register`
+```
+Requirement:
+ - N/A
+
+Steps:
+ - Launch the website (https://amazon.com)
+ - Click on 'Register' button
+ - Enter valid name, email, password and password check
+ - Click on Register
+
+Result:
+ - User is registered and is also redirected to the main page.
+```
+
+### Bugs:
+`Error message when user tries to log in`
+```
+Priority:
+ - Blocker (P1)
+
+Steps:
+ - Launch the website (https://amazon.com)
+ - Click on 'Sign In' button
+ - Enter valid email and password
+ - Click on Sign In
+
+Expected result:
+ - User logs in and is redirected to the main page.
+
+Actual result:
+ - Application is displaying an error message saying 'Something went wrong. Please contact the administrator.'
+
+PS: I always add screenshots, screen recording, logs, stacktrace and everything that could help the dev to investigate and debug it.
+```
+
+`Typo on register page`
+```
+Priority:
+ - Minor (P4)
+
+Steps:
+ - Launch the website (https://amazon.com)
+ - Click on 'Register' button
+
+Expected result:
+ - User should see Name label
+
+Actual result:
+ - Typo on Name label. It's actually Anme
+
+PS: I always add screenshots, screen recording, logs, stacktrace and everything that could help the dev to investigate and debug it.
+```
+
+
+### Documantation
 - What tools / frameworks would you use for AT?
 ```
 POM
