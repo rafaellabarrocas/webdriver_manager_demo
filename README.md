@@ -47,9 +47,9 @@ source venv/Scripts/activate
 ### Run tests
 - for Mac/Linux
 ```
-python3 -m pytest -v tests/test_google_search.py
+python3 -m pytest -v tests/...py
 ```
 - for Windows
 ```
-pytest -v tests/test_google_search.py
+pytest -v tests/...py
 ```

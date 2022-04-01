@@ -25,7 +25,7 @@ class BaseTest(unittest.TestCase):
 
         # self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
-        self.driver.get("http://www.google.com")
+        self.driver.get("http://www.amazon.com")
         time.sleep(3)
 
     def tearDown(self):
