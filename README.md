@@ -30,6 +30,8 @@ Steps:
 Result:
  - User is registered and is also redirected to the main page.
 ```
+I always make I'm covering the AC of the feature/ticket
+Run on different browsers and screen sizes.
 
 ### Bugs:
 `Error message when user tries to log in`
@@ -48,8 +50,6 @@ Expected result:
 
 Actual result:
  - Application is displaying an error message saying 'Something went wrong. Please contact the administrator.'
-
-PS: I always add screenshots, screen recording, logs, stacktrace and everything that could help the dev to investigate and debug it.
 ```
 
 `Typo on register page`
@@ -66,9 +66,8 @@ Expected result:
 
 Actual result:
  - Typo on Name label. It's actually Anme
-
-PS: I always add screenshots, screen recording, logs, stacktrace and everything that could help the dev to investigate and debug it.
 ```
+PS: I always add screenshots, screen recording, logs, stacktrace and everything that could help the dev to investigate and debug it.
 
 
 ### Documantation
