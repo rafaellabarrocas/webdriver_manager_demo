@@ -1,12 +1,12 @@
-from curses import KEY_ENTER
-from pages.base_page import BasePage
 from utils.locators import LoginPageLocators
-from selenium.webdriver.common.keys import Keys
+
+from pages.base_page import BasePage
+
 
 class SignInPage(BasePage):
     def __init__(self, driver):
         self.locator = LoginPageLocators
-        super(SearchPage, self).__init__(driver)
+        super(SignInPage, self).__init__(driver)
 
     def enter_email(self, email):
         self.find_element(*self.locator.EMAIL_INPUT).sendKeys(email)

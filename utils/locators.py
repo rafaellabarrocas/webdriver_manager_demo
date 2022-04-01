@@ -19,3 +19,6 @@ class RegisterPageLocators(object):
     PASSWORD_INPUT = (By.ID, 'ap_password')
     PASSWORD_CHECK_INPUT = (By.ID, 'ap_password_check')
     CONTINUE_BUTTON = (By.ID, 'continue')
+    PASSWORD_MISMATCH_MESSAGE = (By.ID, 'auth-password-mismatch-alert')
+    INVALID_EMAIL_MESSAGE = (By.ID, 'auth-email-invalid-claim-alert')
+    INVALID_NAME_MESSAGE = (By.ID, 'auth-customerName-missing-alert')
