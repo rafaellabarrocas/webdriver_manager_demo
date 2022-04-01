@@ -85,6 +85,7 @@ POM - Used to organize the code and make it cleaner and adding small blocks of c
 Selenium - Free open-source testing framework that has a huge community around the entire world. It supports multiple programming langagues, it supports differents browsers, (...)
 Webdriver_manager - Library that provides the way to automatically manage drivers for different browsers. This way we don't need to manually add/update drivers binaries.
 Faker - Library to generate random info like name, address, email, phone number, (...)
+VirtualEnv - Library to create an isolated environment. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
 ```
 - What parts of the app you would apply AT to?
 ```
